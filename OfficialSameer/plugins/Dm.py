@@ -61,10 +61,10 @@ async def _(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't Dm to @DEADLY_SPAMMER's Owner"
+                text = f"DUSHMANO KI GAND LETA HU APNO KI NAHI👀"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"SUDO USER HAI YE JAAKE KISI AUR TARGET KI GAND MARO ISKO SPAM KIYA TOH YE MERI LE LEGA😂."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:            
                  message = str(DEADLYSPAM[1])
@@ -76,10 +76,10 @@ async def _(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't Dm to @DEADLT_SPAMMERS's Owner"
+                text = f"DUSHMANO KI GAND LETA HU APNO KI NAHI👀"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"SUDO USER HAI YE JAAKE KISI AUR TARGET KI GAND MARO ISKO SPAM KIYA TOH YE MERI LE LEGA😂"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 message = str(DEADLYSPAM[0])
@@ -143,10 +143,10 @@ async def dmraid(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't raid on @DEADLY_SPAMMER's Owner"
+                text = f"DUSHMANO KI GAND LETA HU APNO KI NAHI👀"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"SUDO USER HAI YE JAAKE KISI AUR TARGET KI GAND MARO ISKO SPAM KIYA TOH YE MERI LE LEGA😂"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 counter = int(DEADLYSPAM[0])
@@ -162,10 +162,10 @@ async def dmraid(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't raid on @DEADLY_SPAMMER's Owner"
+                text = f"DUSHMANO KI GAND LETA HU APNO KI NAHI👀"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"SUDO USER HAI YE JAAKE KISI AUR TARGET KI GAND MARO ISKO SPAM KIYA TOH YE MERI LE LEGA😂"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 counter = int(DEADLYSPAM[0])
