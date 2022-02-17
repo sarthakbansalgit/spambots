@@ -13,14 +13,14 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/sameerpanthi/DEADLY-SPAM-BOT"
-BOT_IS_UP_TO_DATE = "**The Deadly X Spam** is up-to-date sur."
+OFFICIAL_UPSTREAM_REPO = "https://github.com/sarthakbansalgit/spambots"
+BOT_IS_UP_TO_DATE = "**The demon Spam** is up-to-date sur."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
     "updating your Deadly X Spam ..."
 )
-NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your Deadly X Spam...`"
+NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your Demon Spam...`"
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
@@ -71,7 +71,7 @@ RESTARTING_APP = "re-starting heroku application"
 @SAM40.on(events.NewMessage(incoming=True, pattern=r"\%supdate(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in DEV:
-        text = "__ updating Your Deadly Userbots __\n **Type** .ping **After 5min To check I'm On !!**"
+        text = "__ updating Your Demon Userbots __\n **Type** .ping **After 5min To check I'm On !!**"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
@@ -183,7 +183,7 @@ def generate_change_log(git_repo, diff_marker):
 async def deploy_start(SAM, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await message.edit(
-        "__Updated your Deadly X Spam successfully sur__ !!!\n\n"
+        "__Updated your Deamon Spam successfully sur__ !!!\n\n"
     )
     await remote.push(refspec=refspec)
     await SAM.disconnect()
