@@ -80,9 +80,9 @@ def get_readable_time(seconds: int) -> str:
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         if e.reply_to_msg_id:
-            fuk = await e.respond("Pᴏɴɢ!!.....", reply_to=e.reply_to_msg_id)
+            fuk = await e.respond("LE MADERCHOD HOGYA PING BHENNCHOD CHAIN HI NHI HAI BTW PAPA BOLTE TO. @THE_DEMON_NETWORK @MRSARTHAKZZ @SMITMOREXD", reply_to=e.reply_to_msg_id)
         else:
-            fuk = await e.reply("Pᴏɴɢ!!.....")
+            fuk = await e.reply("LE MADERCHOD HOGYA PING BHENNCHOD CHAIN HI NHI HAI BTW PAPA BOLTE TO. @THE_DEMON_NETWORK @MRSARTHAKZZ @SMITMOREXD")
         start = datetime.now()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
