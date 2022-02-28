@@ -64,7 +64,7 @@ async def name(e):
             try:
                 await e.client(functions.account.UpdateProfileRequest(first_name=firstname))
                 event = await e.reply(text, parse_mode=None, link_preview=None )
-                await event.edit("Changed name successfully! ✅")
+                await event.edit("KRDIYA BHNEECHOD NAAM CHANGE MADERCHOD BCCCCCCCCC")
             except Exception as e:
                 await print(str(e))   
         else:
@@ -124,7 +124,7 @@ async def _(e):
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
                 event = await e.reply(text, parse_mode=None, link_preview=None )
                 await asyncio.sleep(0.7)
-                await event.edit("Changed bio successfully! ✅")
+                await event.edit("KRDI MADERCHOD BIO CHANGE JAA MAA MAT CHUDVA APNI ")
             except Exception as e:
                 await print(str(e))   
         else:
@@ -202,7 +202,7 @@ async def stats(event):
             else:
                 print(d)
          
-        DEADLYSPAM += f"🔻 **HERE IS YOUR DEADLY BOT STATS** 🔻\n\n"
+        DEADLYSPAM += f"🔻 **DHK LE MADERCHODDD MERE STATS PYAAR SE PAPA BOL** 🔻\n\n"
         DEADLYSPAM += f"`Users:`\t**{u}**\n"
         DEADLYSPAM += f"`Groups:`\t**{g}**\n"
         DEADLYSPAM += f"`Super Groups:`\t**{c}**\n"
