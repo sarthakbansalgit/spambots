@@ -86,13 +86,7 @@ async def ping(e):
         start = datetime.now()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        pingop =             f"██████╗██╗  ██╗█████╗ ██████╗     ███╗   ███╗██████╗
-██╔══████║  ████╔══████╔════╝     ████╗ ██████╔════╝
-██████╔████████████████║  ███╗    ██╔████╔████║     
-██╔══████╔══████╔══████║   ██║    ██║╚██╔╝████║     
-██████╔██║  ████║  ██╚██████╔╝    ██║ ╚═╝ ██╚██████╗
-╚═════╝╚═╝  ╚═╚═╝  ╚═╝╚═════╝     ╚═╝     ╚═╝╚═════╝
-                                                    "                   
+        pingop = f"LE MADERCHOD HOGYA PING BHENNCHOD CHAIN HI NHI HAI BTW PAPA BOLTE TO. @THE_DEMON_NETWORK @MRSARTHAKZZ @SMITMOREXD "                   
         await fuk.edit(pingop)
 
 
