@@ -79,7 +79,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", None))
 DEV = list(map(int, getenv("FULLSUDO").split()))
 DB_URI = config("DATABASE_URL", None)
 DEV.append(OWNER_ID)
-SUDO_USERS.append(OWNER_ID)
+FULLSUDO_USERS.append(OWNER_ID)
 
 # Sessions
 async def DEADLYSPAM():
